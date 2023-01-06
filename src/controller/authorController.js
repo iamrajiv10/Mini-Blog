@@ -51,7 +51,7 @@ const createAuthor = async function (req, res) {
   } catch (error) {res.status(500).send({ status: false, msg: error.message });}
 };
 
-//----------------------------------------------loginCheck------------------------------------------------------
+//--------------------------------------)--------loginCheck------------------------------------------------------
 const loginCheck = async function (req, res) {
   try {
   let Username = req.body.email;
